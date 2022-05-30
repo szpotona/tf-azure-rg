@@ -1,9 +1,8 @@
 variable "name" {
-
 }
 
 variable "location" {
-
+ default = ""
 }
 
 variable "tags" {
