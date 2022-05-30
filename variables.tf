@@ -7,6 +7,7 @@ variable "location" {
 
 variable "tags" {
   default = {}
+  type    = map(string)
 }
 
 variable "role_name" {
